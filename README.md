@@ -70,6 +70,22 @@ Once the VM is created redo everything we just did  create a next virtual machin
 
 <img width="2878" height="1692" alt="image" src="https://github.com/user-attachments/assets/c46d36e8-419b-403f-a678-fa696f8e0232" />
 
-install
-If you are login go to browser and istall wireshark [](https://www.wireshark.org) yo
+
+ Once inside go to browser and  download  wireshark [](https://www.wireshark.org) you can get the Windows x64 installer, once wireshark is downloaded click next to everything and install.
+
+
+
+<img width="1988" height="1324" alt="image" src="https://github.com/user-attachments/assets/5befa40a-57e5-4401-baf3-d389c9aecbf4" />
+
+
+once in wireshark feel free to look are.
+
+
+
+<img width="1952" height="1324" alt="image" src="https://github.com/user-attachments/assets/85ed8905-1235-4972-952c-578ea9b22238" />
+
+
+
+
+ istall wireshark [](https://www.wireshark.org) yo
 
