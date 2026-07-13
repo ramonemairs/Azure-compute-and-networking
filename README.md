@@ -7,7 +7,7 @@
 ](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fonedata.ai%2Fmicrosoft-azure%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABA4&opi=89978449)
 
 
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines some of Microsoft Azure networking activities 
 
 [
 ](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fsiliconangle.com%2F2022%2F05%2F24%2Fmicrosoft-announces-new-azure-capabilities-around-cloud-native-apps-data-analytics-hybrid-cloud-operations%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABBT&opi=89978449)[
@@ -17,20 +17,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Active Directory Domain Services
 - PowerShell
+- Wireshark
+  
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
 - Windows 10 (21H2)
+- Ubuntu (linux)
+
 
 Azure lab Prerequisites 
 
 - create resource groups
 - create a virtual networks and subnet
 - Create Azure virtual machines (windows and linux[Ubuntu]) 
-- create an Azure network security group (firewall resources )
+  
 
 <h2>Deployment and Configuration Steps</h2>
 
