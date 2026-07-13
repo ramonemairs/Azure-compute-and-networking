@@ -38,50 +38,20 @@ Azure lab Prerequisites
 
 <img width="828" height="1792" alt="image" src="https://github.com/user-attachments/assets/996836c9-b77e-413a-9af5-7df7c31d5b3c" />
 
-Go to [](https://portal.azure.com/cobrand/?id=12&mkt=DA-DK&cbcxt=azubill) and create an accout on in the account go to the search bar and type Resource Group and create a new Resource Group give it a name and put it in East US 2 then click rewiew and create 
+Go to [](https://portal.azure.com/cobrand/?id=12&mkt=DA-DK&cbcxt=azubill) and create an accout on in the account go to the search bar and type 
+Resource Group and create a new Resource Group give it a name and put it in East US 2 then click rewiew and create 
+
+
+
+<img width="828" height="1792" alt="image" src="https://github.com/user-attachments/assets/bbb3bffe-6002-4451-9360-c15bb831287b" />
+
+
+Now it time to create a virtual machine and add it to the resource group we just created, so go to the search bar and type in virtual machine or VM and click create new vm now when creating the virtual machine make sure to put the resource group to the one we previously made and for the name you can name it windows vm  put the region to East US 2 and for the operating system or image* put it to windows 10 or windows 11 and for the size try to pick something with a least two VCPUS then create your username and password ( Make sure to click the box under licensing ) then click review and create then create 
 
 
 
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-
-  [
-[
-](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fonedata.ai%2Fmicrosoft-
-
-[
-](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fonedata.ai%2Fmicrosoft-azure%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABBu&opi=89978449)
-
-
-[
-](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fsiliconangle.com%2F2022%2F05%2F24%2Fmicrosoft-announces-new-azure-capabilities-around-cloud-native-apps-data-analytics-hybrid-cloud-operations%2F&ved=0CBYQjRxqGAoTCKCml8zxz5UDFQAAAAAdAAAAABCJAQ&opi=89978449)azure%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABBu&opi=89
-
-
-
-
-
-<img width="1166" height="832" alt="image" src="https://github.com/user-attachments/assets/dca5dbd8-0d62-4961-8a46-642ce4788567" />
 
 
 978449)</p>
