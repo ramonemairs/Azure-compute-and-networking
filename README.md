@@ -61,9 +61,15 @@ Once the VM is created redo everything we just did  create a next virtual machin
 
 
 
+<img width="2344" height="1440" alt="image" src="https://github.com/user-attachments/assets/71e6d0aa-5413-41f6-9db5-fdc2fa0976da" />
+
+
+ Now  if you don't have it download remote desktop and connect it to your windows VM if you don't know how to do it look for the plus + button and click it and click add new PC now go to azure and type VM then scroll to the side and look for public IP address and copy it and paste it in remote desktop the put in your username and password  and press enter.
 
 
 
+<img width="2878" height="1692" alt="image" src="https://github.com/user-attachments/assets/c46d36e8-419b-403f-a678-fa696f8e0232" />
 
-978449)</p>
-<br />
+
+If you are login go to browser and istall wireshark [](https://www.wireshark.org) yo
+
