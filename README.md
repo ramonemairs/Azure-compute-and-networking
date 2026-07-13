@@ -31,12 +31,19 @@ Azure lab Prerequisites
 
 - create resource groups
 - create a virtual networks and subnet
-- Create Azure virtual machines (windows and linux[Ubuntu]) 
-  
+- Create Azure virtual machines (windows and linux[Ubuntu])
+- perform network activities between the windows and Linux servers in remote desktop
+   
 
-<h2>Deployment and Configuration Steps</h2>
 
-<p>
+<img width="828" height="1792" alt="image" src="https://github.com/user-attachments/assets/996836c9-b77e-413a-9af5-7df7c31d5b3c" />
+
+Go to [](https://portal.azure.com/cobrand/?id=12&mkt=DA-DK&cbcxt=azubill) and create an accout on in the account go to the search bar and type Resource Group and create a new Resource Group give it a name and put it in East US 2 then click rewiew and create 
+
+
+
+
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
