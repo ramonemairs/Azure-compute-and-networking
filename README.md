@@ -3,7 +3,6 @@
 
 <img width="1166" height="832" alt="image" src="https://github.com/user-attachments/assets/0d4550d1-df2f-4f6c-bcea-2581628cbb39" />
 
-](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fonedata.ai%2Fmicrosoft-azure%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABA4&opi=89978449)
 [
 ](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fonedata.ai%2Fmicrosoft-azure%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABA4&opi=89978449)
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
