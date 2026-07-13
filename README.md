@@ -44,9 +44,12 @@ Resource Group and create a new Resource Group give it a name and put it in East
 
 
 <img width="828" height="1792" alt="image" src="https://github.com/user-attachments/assets/bbb3bffe-6002-4451-9360-c15bb831287b" />
+<img width="828" height="1792" alt="image" src="https://github.com/user-attachments/assets/4c0d2a66-f58e-4fda-ac2c-46b0033433a3" />
 
 
-Now it time to create a virtual machine and add it to the resource group we just created, so go to the search bar and type in virtual machine or VM and click create new vm now when creating the virtual machine make sure to put the resource group to the one we previously made and for the name you can name it windows vm  put the region to East US 2 and for the operating system or image* put it to windows 10 or windows 11 and for the size try to pick something with a least two VCPUS then create your username and password ( Make sure to click the box under licensing ) then click review and create then create 
+
+Now it time to create a virtual machine and add it to the resource group we just created, so go to the search bar and type in virtual machine or VM and click create new vm now when creating the virtual machine make sure to put the resource group to the one we previously made and for the name you can name it windows vm  put the region to East US 2 and for the operating system or image* put it to windows 10 or windows 11 and for the size try to pick something with a least two VCPUS then create your username and password ( Make sure to click the box under licensing ) then click review and create then create.
+
 
 
 
