@@ -70,6 +70,6 @@ Once the VM is created redo everything we just did  create a next virtual machin
 
 <img width="2878" height="1692" alt="image" src="https://github.com/user-attachments/assets/c46d36e8-419b-403f-a678-fa696f8e0232" />
 
-
+install
 If you are login go to browser and istall wireshark [](https://www.wireshark.org) yo
 
