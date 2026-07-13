@@ -57,6 +57,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
   [
-](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fsiliconangle.com%2F2022%2F05%2F24%2Fmicrosoft-announces-new-azure-capabilities-around-cloud-native-apps-data-analytics-hybrid-cloud-operations%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABBT&opi=89978449)<img width="980" height="560" alt="image" src="https://github.com/user-attachments/assets/139339d1-7512-464b-9c07-80101d67c9db" />
-</p>
+[
+](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fonedata.ai%2Fmicrosoft-azure%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABBu&opi=89978449)</p>
 <br />
