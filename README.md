@@ -1,9 +1,9 @@
 # Azure-compute-and-networking
 
-<p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-</p>
 
+
+[
+](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fonedata.ai%2Fmicrosoft-azure%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABA4&opi=89978449)
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
