@@ -48,7 +48,15 @@ Resource Group and create a new Resource Group give it a name and put it in East
 
 
 
-Now it time to create a virtual machine and add it to the resource group we just created, so go to the search bar and type in virtual machine or VM and click create new vm now when creating the virtual machine make sure to put the resource group to the one we previously made and for the name you can name it windows vm  put the region to East US 2 and for the operating system or image* put it to windows 10 or windows 11 and for the size try to pick something with a least two VCPUS then create your username and password ( Make sure to click the box under licensing ) then click review and create then create.
+Now it time to create a virtual machine and add it to the resource group we just created, so go to the search bar and type in virtual machine or VM and click create new vm now when creating the virtual machine make sure to put the resource group to the one we previously made and for the name you can name it windows vm  put the region to East US 2 and for the operating system or image* put it to windows 10 or windows 11 and for the size try to pick something with a least two VCPUS then create your username and password ( Make sure to click the box under licensing ) then click review and create then create please make note of you Virtual network in networking because you need it to create you Linux- VM.
+
+
+
+
+<img width="862" height="1452" alt="image" src="https://github.com/user-attachments/assets/c4d6028d-8016-4c5c-84d6-a6017d6ed1dc" />
+
+
+Once the VM is created redo everything we just did  create a next virtual machine and name it linux-VM for the resource group please use the same resource group as the windows VM (NetworkRM) put the region to East US 2 for the operating system or image put it to Ubuntu Server 22.04 or 24.04 LTS and pick the same 2VCPUS for the size then create your username and password ( Make sure to click the box under licensing ) and click next until you get to networking go to virtual network and use the same on as your windows-VM.
 
 
 
