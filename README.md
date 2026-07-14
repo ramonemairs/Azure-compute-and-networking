@@ -85,7 +85,26 @@ once in wireshark feel free to look are.
 <img width="1952" height="1324" alt="image" src="https://github.com/user-attachments/assets/85ed8905-1235-4972-952c-578ea9b22238" />
 
 
+Once wireshark is installed click the start button a the bottom left of the screen and type wireshark and open the app, when the app is open click Ethernet and once it is highlighted click the blue shark fin on the upper left. if done right it should look like a bunch of letters and numbers being made they are IP packets ( which means a chunk of data sent over the internet that contains data) , now its time to filter for ICMP traffic only.
 
 
- istall wireshark [](https://www.wireshark.org) yo
+
+<img width="828" height="1792" alt="image" src="https://github.com/user-attachments/assets/1f149ee6-4280-4452-b9ee-272cee411245" />
+
+
+<img width="2876" height="1708" alt="image" src="https://github.com/user-attachments/assets/59aec125-be9d-4d37-9a0f-b620f3a00ea8" />
+
+
+
+
+Now its time to Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM, so first go to azure and type in VM in the search bar double click the linux-vm we created and scroll down and look for the private IP address mine is          ( 172.16.0.5 ) copy it and go back into the window-VM or remote desktop and go to the start button and open powershell, so from Windows-vm        i will attempt to the linux-vm so first go to powershell and type ( ping then click the space bar and then paste the linux IP address then click enter) we should see the ICMP traffic in wireshark.
+
+
+
+
+
+
+
+
+
 
