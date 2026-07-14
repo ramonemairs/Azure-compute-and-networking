@@ -138,10 +138,7 @@ Go back to Windows-VM in remote desktop go to powershell and observe the ping re
 
 
 
-
-
-
-
+Now lets Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using first back into you linux-vm  go to networking epand it by clicking the arrow next to it and go to network settings once in look to the right  where network security group is click the highlighted word under it which would be ( linux-vm-nsg ) once in go to settings expand  it and click inbound security rules and just delete the rule we just created ( the ICMP deny rule ) once it is deleted go back to remote desktop and observe the ICMP traffic is running again PLEASE NOTE: it mate time sometime before you see the rule being implemented.
 
 
 
