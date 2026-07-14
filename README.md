@@ -95,9 +95,40 @@ Once wireshark is installed click the start button a the bottom left of the scre
 <img width="2876" height="1708" alt="image" src="https://github.com/user-attachments/assets/59aec125-be9d-4d37-9a0f-b620f3a00ea8" />
 
 
+<img width="2880" height="1650" alt="image" src="https://github.com/user-attachments/assets/0bbdf6bf-16f6-4786-8f7b-e11d755b7d80" />
+
 
 
 Now its time to Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM, so first go to azure and type in VM in the search bar double click the linux-vm we created and scroll down and look for the private IP address mine is          ( 172.16.0.5 ) copy it and go back into the window-VM or remote desktop and go to the start button and open powershell, so from Windows-vm        i will attempt to the linux-vm so first go to powershell and type ( ping then click the space bar and then paste the linux IP address then click enter) we should see the ICMP traffic in wireshark.
+
+
+
+<img width="2880" height="1650" alt="image" src="https://github.com/user-attachments/assets/11faada3-7d4e-4b8e-a169-eea5bb2f8b95" />
+
+
+Now where going to Configuring a Firewall [Network Security Group], so first back in powershell where going to initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM so go to  powershell and  type ( ping then click the space bar and then paste the linux IP address then space bar again then -t ) and now you should see a nonstop ping. 
+
+
+
+<img width="2810" height="1050" alt="image" src="https://github.com/user-attachments/assets/5d6c2459-fc87-40c5-a7bc-fb90121ecc09" />
+
+
+<img width="828" height="1792" alt="image" src="https://github.com/user-attachments/assets/00d36ed5-2bac-43e5-9b5e-aec43543ba8a" />
+
+
+Now where going to open the Network Security Group which your Ubuntu VM is using and disable incoming (inbound) ICMP traffic,so go to Azure portal and search for VM  and open your Linux-vm go to networking epand it by clicking the arrow next to it and go to network settings once in look to the right  where network security group is click the highlighted word under it which would be ( linux-vm-nsg ) once in go to settings expand  it and click inbound security rules and now lets add a new rule so click the add (+) button  and now lets create the rule for 
+( source ) put any 
+( source port ranges ) put * 
+( service ) put custom 
+(Destination port ranges ) put * 
+( protocol ) ICMPv4
+(Priority ) 290 
+then click add. 
+
+
+
+
+
 
 
 
