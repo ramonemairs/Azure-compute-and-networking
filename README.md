@@ -127,6 +127,15 @@ then click add.
 
 
 
+<img width="2870" height="1684" alt="image" src="https://github.com/user-attachments/assets/750ea71d-bc79-4bef-9f19-7ac4a145fdad" />
+
+
+Go back to Windows-VM in remote desktop go to powershell and observe the ping requests being timed out PLEASE NOTE: it mate time sometime before you see the rule being implemented.
+
+
+
+<img width="2880" height="1694" alt="image" src="https://github.com/user-attachments/assets/19a18da1-26d4-4ea3-87b4-116cf0903c72" />
+
 
 
 
