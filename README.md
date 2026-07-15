@@ -141,5 +141,19 @@ Now lets Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is
 
 
 
+<img width="2880" height="1718" alt="image" src="https://github.com/user-attachments/assets/54574084-a7f2-4fc5-886f-ff3dfda2a274" />
+
+Now its time to observe SSH ( secure shell )  traffic so back in wireshark where you filter for ICMP go ahead and filter for SSH if PLEASE NOTE: if wireshark is not working just close remote desktop and log back in. so now from your Windows-VM SSH into  your Ubuntu Virtual Machine ( from its private IP address) so first open azure and search VM and go to your linux-vm and double click in and scroll down and look for you private IP address and copy it, after open remote desktop and go to powershell to find powershell click the start or windows  button at the bottom left of the screen and type powershell and open it now type in ssh ( labuser@<private IP address> ) so mine is ( ssh space labuser@172.16.0.5 ) then click enter, now observe the ssh traffic in wireshark. 
+
+
+
+
+<img width="2874" height="1668" alt="image" src="https://github.com/user-attachments/assets/48a21df9-8a17-4162-b6ae-c668c9e36c97" />
+
+
+Now after clicking enter in 
+
+
+
 
 
