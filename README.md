@@ -4,11 +4,10 @@
 <img width="1166" height="832" alt="image" src="https://github.com/user-attachments/assets/0d4550d1-df2f-4f6c-bcea-2581628cbb39" />
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 [
-](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fonedata.ai%2Fmicrosoft-azure%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABA4&opi=89978449)
+]
 
 
-This tutorial outlines some of Microsoft Azure networking activities 
-
+ In this tutorial we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups.
 [
 ](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fsiliconangle.com%2F2022%2F05%2F24%2Fmicrosoft-announces-new-azure-capabilities-around-cloud-native-apps-data-analytics-hybrid-cloud-operations%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABBT&opi=89978449)[
 ](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fsiliconangle.com%2F2022%2F05%2F24%2Fmicrosoft-announces-new-azure-capabilities-around-cloud-native-apps-data-analytics-hybrid-cloud-operations%2F&ved=0CBYQjRxqFwoTCKCml8zxz5UDFQAAAAAdAAAAABBT&opi=89978449)
