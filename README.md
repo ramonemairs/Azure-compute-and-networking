@@ -151,9 +151,10 @@ Now its time to observe SSH ( secure shell )  traffic so back in wireshark where
 <img width="2874" height="1668" alt="image" src="https://github.com/user-attachments/assets/48a21df9-8a17-4162-b6ae-c668c9e36c97" />
 
 
-Now after clicking enter in 
+Now after clicking enter powershell will ask if you want to continue connecting (yes/no/[fingerprint])? just type yes and chill enter now its time to type your linux password PLEASE NOTE: when typing in your password nothing will appear,this is for security purposes just type in the correct password and hit enter. if done correctly your prompt should change mine is now (shammie@linux-vm) now take something to observe you can type things like ( id,hostname,uname space bar  -a,) to see ssh traffic in wireshark. Now you can exit the SSH connection by typing (exit) and pressing enter.
 
 
+And that the end of the lab that just a few networking activities  that can be done with Microsoft Azure.
 
 
 
