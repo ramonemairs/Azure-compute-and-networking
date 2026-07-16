@@ -38,7 +38,7 @@ Azure lab Prerequisites
 
 <img width="828" height="1792" alt="image" src="https://github.com/user-attachments/assets/996836c9-b77e-413a-9af5-7df7c31d5b3c" />
 
-Go to [](https://portal.azure.com/cobrand/?id=12&mkt=DA-DK&cbcxt=azubill) and create an accout on in the account go to the search bar and type 
+Go to [](https://portal.azure.com/cobrand/?id=12&mkt=DA-DK&cbcxt=azubill) and create an accout, on the account go to the search bar and type 
 Resource Group and create a new Resource Group give it a name and put it in East US 2 then click rewiew and create 
 
 
@@ -48,7 +48,7 @@ Resource Group and create a new Resource Group give it a name and put it in East
 
 
 
-Now it time to create a virtual machine and add it to the resource group we just created, so go to the search bar and type in virtual machine or VM and click create new vm now when creating the virtual machine make sure to put the resource group to the one we previously made and for the name you can name it windows vm  put the region to East US 2 and for the operating system or image* put it to windows 10 or windows 11 and for the size try to pick something with a least two VCPUS then create your username and password ( Make sure to click the box under licensing ) then click review and create then create please make note of you Virtual network in networking because you need it to create you Linux- VM.
+Now it time to create a virtual machine and add it to the resource group we just created, so go to the search bar and type in virtual machine or VM and click create new vm now when creating the virtual machine make sure to put the resource group to the one we previously made and for the name you can name it windows-vm  put the region to East US 2 and for the operating system or image* put it to windows 10 or windows 11 and for the size try to pick something with a least two(2) VCPUS then create your username and password ( Make sure to click the box under licensing ) then click review and create then create please make note of you Virtual network in networking because you need it to create you Linux- VM.
 
 
 
@@ -56,7 +56,7 @@ Now it time to create a virtual machine and add it to the resource group we just
 <img width="862" height="1452" alt="image" src="https://github.com/user-attachments/assets/c4d6028d-8016-4c5c-84d6-a6017d6ed1dc" />
 
 
-Once the VM is created redo everything we just did  create a next virtual machine and name it linux-VM for the resource group please use the same resource group as the windows VM (NetworkRM) put the region to East US 2 for the operating system or image put it to Ubuntu Server 22.04 or 24.04 LTS and pick the same 2VCPUS for the size then create your username and password ( Make sure to click the box under licensing ) and click next until you get to networking go to virtual network and use the same on as your windows-VM.
+Once the VM is created redo everything we just did  create a next virtual machine and name it linux-VM for the resource group please use the same resource group as the windows VM (NetworkRM) put the region to East US 2 for the operating system or image put it to Ubuntu Server 22.04 or 24.04 LTS and pick the same 2VCPUS for the size then create your username and password ( Make sure to click the box under licensing ) and click next until you get to networking go to virtual network and use the same one as your windows-VM.
 
 
 
@@ -64,21 +64,21 @@ Once the VM is created redo everything we just did  create a next virtual machin
 <img width="2344" height="1440" alt="image" src="https://github.com/user-attachments/assets/71e6d0aa-5413-41f6-9db5-fdc2fa0976da" />
 
 
- Now  if you don't have it download remote desktop and connect it to your windows VM if you don't know how to do it look for the plus + button and click it and click add new PC now go to azure and type VM then scroll to the side and look for public IP address and copy it and paste it in remote desktop the put in your username and password  and press enter.
+ Now  if you don't have it download remote desktop and connect it to your windows VM if you don't know how to do it look for the plus + button and click it and click add new PC now go to azure and type VM then scroll to the side and look for public IP address and copy it and paste it in remote desktop then put in your username and password  and press enter.
 
 
 
 <img width="2878" height="1692" alt="image" src="https://github.com/user-attachments/assets/c46d36e8-419b-403f-a678-fa696f8e0232" />
 
 
- Once inside go to browser and  download  wireshark [](https://www.wireshark.org) you can get the Windows x64 installer, once wireshark is downloaded click next to everything and install.
+ Once inside go to browser and  download  wireshark [](https://www.wireshark.org) you can get the Windows x64 installer version , once wireshark is downloaded click next to everything and install.
 
 
 
 <img width="1988" height="1324" alt="image" src="https://github.com/user-attachments/assets/5befa40a-57e5-4401-baf3-d389c9aecbf4" />
 
 
-once in wireshark feel free to look are.
+once in wireshark feel free to observe and play around with it .
 
 
 
