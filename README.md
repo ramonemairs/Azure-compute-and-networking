@@ -78,14 +78,14 @@ Once the VM is created redo everything we just did  create a next virtual machin
 <img width="1988" height="1324" alt="image" src="https://github.com/user-attachments/assets/5befa40a-57e5-4401-baf3-d389c9aecbf4" />
 
 
-once in wireshark feel free to observe and play around with it .
+once in wireshark feel free to observe it .
 
 
 
 <img width="1952" height="1324" alt="image" src="https://github.com/user-attachments/assets/85ed8905-1235-4972-952c-578ea9b22238" />
 
 
-Once wireshark is installed click the start button a the bottom left of the screen and type wireshark and open the app, when the app is open click Ethernet and once it is highlighted click the blue shark fin on the upper left. if done right it should look like a bunch of letters and numbers being made they are IP packets ( which means a chunk of data sent over the internet that contains data) , now its time to filter for ICMP traffic only.
+Now in Wireshark click  Ethernet and once it is highlighted click the blue shark fin on the upper left. if done right it should look like a bunch of letters and numbers being made they are IP packets ( which means a chunk of data sent over the internet that contains information) , now its time to filter for ICMP traffic only to do that go to the search bar and type (ssh).
 
 
 
@@ -97,7 +97,7 @@ Once wireshark is installed click the start button a the bottom left of the scre
 
 
 
-Now its time to Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM, so first go to azure and type in VM in the search bar double click the linux-vm we created and scroll down and look for the private IP address mine is          ( 172.16.0.5 ) copy it and go back into the window-VM or remote desktop and go to the start button and open powershell, so from Windows-vm        i will attempt to the linux-vm so first go to powershell and type ( ping then click the space bar and then paste the linux IP address then click enter) we should see the ICMP traffic in wireshark.
+Now its time to Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM, so first go to azure and type in VM in the search bar double click the linux-vm we created and scroll down and look for the private IP address mine is          ( 172.16.0.5 ) copy it and go back into the window-VM or remote desktop and go to the start button and open powershell, so from the  Windows-vm   i will attempt to ping the linux-vm ip address , so first go to powershell and type ( ping then click the space bar and then paste the linux IP address then click enter) we should see the ICMP traffic in wireshark if you can't  paste the ip address just type it out.
 
 
 
@@ -114,7 +114,7 @@ Now where going to Configuring a Firewall [Network Security Group], so first bac
 <img width="828" height="1792" alt="image" src="https://github.com/user-attachments/assets/00d36ed5-2bac-43e5-9b5e-aec43543ba8a" />
 
 
-Now where going to open the Network Security Group which your Ubuntu VM is using and disable incoming (inbound) ICMP traffic,so go to Azure portal and search for VM  and open your Linux-vm go to networking epand it by clicking the arrow next to it and go to network settings once in look to the right  where network security group is click the highlighted word under it which would be ( linux-vm-nsg ) once in go to settings expand  it and click inbound security rules and now lets add a new rule so click the add (+) button  and now lets create the rule for 
+Now where going to open the Network Security Group which your Ubuntu-VM is using and disable incoming (inbound) ICMP traffic,so go to the  Azure portal and search for VM  and open your Linux-vm go to networking epand it by clicking the arrow next to it and go to network settings once in look to the right  where network security group is click the highlighted word under it which would be ( linux-vm-nsg ) once in go to settings expand  it and click inbound security rules and now lets add a new rule so click the add (+) button  and now lets create the rule.for 
 ( source ) put any 
 ( source port ranges ) put * 
 ( service ) put custom 
@@ -136,14 +136,14 @@ Go back to Windows-VM in remote desktop go to powershell and observe the ping re
 
 
 
-Now lets Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using first back into you linux-vm  go to networking epand it by clicking the arrow next to it and go to network settings once in look to the right  where network security group is click the highlighted word under it which would be ( linux-vm-nsg ) once in go to settings expand  it and click inbound security rules and just delete the rule we just created ( the ICMP deny rule ) once it is deleted go back to remote desktop and observe the ICMP traffic is running again PLEASE NOTE: it mate time sometime before you see the rule being implemented.
+Now lets Re-enable ICMP traffic for the Network Security Group your Ubuntu-VM is using first back into you linux-vm  go to networking epand it by clicking the arrow next to it and go to network settings once in look to the right  where network security group is click the highlighted word under it which would be ( linux-vm-nsg ) once in go to settings expand  it and click inbound security rules and just delete the rule we just created ( the ICMP deny rule ) once it is deleted go back to remote desktop and observe the ICMP traffic is running again PLEASE NOTE: it mate time sometime before you see the rule being implemented.
 
 
 
 
 <img width="2880" height="1718" alt="image" src="https://github.com/user-attachments/assets/54574084-a7f2-4fc5-886f-ff3dfda2a274" />
 
-Now its time to observe SSH ( secure shell )  traffic so back in wireshark where you filter for ICMP go ahead and filter for SSH if PLEASE NOTE: if wireshark is not working just close remote desktop and log back in. so now from your Windows-VM SSH into  your Ubuntu Virtual Machine ( from its private IP address) so first open azure and search VM and go to your linux-vm and double click in and scroll down and look for you private IP address and copy it, after open remote desktop and go to powershell to find powershell click the start or windows  button at the bottom left of the screen and type powershell and open it now type in ssh ( labuser@<private IP address> ) so mine is ( ssh space labuser@172.16.0.5 ) then click enter, now observe the ssh traffic in wireshark. 
+Now its time to observe SSH (secure shell)  traffic so back in wireshark where you filter for ICMP go ahead and filter for SSH if PLEASE NOTE: if wireshark is not working just close remote desktop and log back in. so now from your Windows-VM SSH into  your Ubuntu Virtual Machine ( from its private IP address) so first open azure and search VM and go to your linux-vm and double click it and scroll down and look for you private IP address and copy it, after open remote desktop and go to powershell to find powershell click the start or windows  button at the bottom left of the screen and type powershell and open it now type in ssh ( labuser@<private IP address> ) so mine is ( ssh space shammie@172.16.0.5 ) then click enter, now observe the ssh traffic in wireshark. 
 
 
 
@@ -151,10 +151,10 @@ Now its time to observe SSH ( secure shell )  traffic so back in wireshark where
 <img width="2874" height="1668" alt="image" src="https://github.com/user-attachments/assets/48a21df9-8a17-4162-b6ae-c668c9e36c97" />
 
 
-Now after clicking enter powershell will ask if you want to continue connecting (yes/no/[fingerprint])? just type yes and chill enter now its time to type your linux password PLEASE NOTE: when typing in your password nothing will appear,this is for security purposes just type in the correct password and hit enter. if done correctly your prompt should change mine is now (shammie@linux-vm) now take something to observe you can type things like ( id,hostname,uname space bar  -a,) to see ssh traffic in wireshark. Now you can exit the SSH connection by typing (exit) and pressing enter.
+Now after clicking enter powershell will ask if you want to continue connecting (yes/no/[fingerprint])? just type yes and click  enter now its time to type your linux password PLEASE NOTE: when typing in your password nothing will appear,this is for security purposes just type in the correct password and hit enter. if done correctly your prompt should change mine is now (shammie@linux-vm) now take something to observe it you can type things like ( id,hostname,uname space bar  -a,) to see ssh traffic in wireshark. Now you can exit the SSH connection by typing (exit) and pressing enter.
 
 
-And that the end of the lab that just a few networking activities  that can be done with Microsoft Azure.
+That's  the end of the lab that's  just a few networking activities  that can be done with Microsoft Azure.
 
 
 
